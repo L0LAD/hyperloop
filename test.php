@@ -70,7 +70,7 @@ function recursive ($start, $end, $currentRoute) {
 			$orientedLine = getLineOriented($start,$end,$line);
 			$distance = getDistance($start,$end,$orientedLine);
 			$currentSegment = ["start" => intval($start), "line" => intval($orientedLine), "distance" => $distance];
-			if ($currentSegment["line"] != end($currentRoute)["line"]) {
+			if ($currentRoute && $currentSegment["line"] != end($currentRoute)["line"]) {
 				array_push($currentRoute,$currentSegment);
 				array_push($GLOBALS['possibleRoutes'],$currentRoute);
 				array_pop($currentRoute);
