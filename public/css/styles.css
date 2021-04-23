@@ -1,0 +1,258 @@
+/*-----------------------------------------
+                 GENERAL
+-----------------------------------------*/
+
+body {
+  margin: 0;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  text-align: left;
+  background-color: #f8f9fc;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#wrapper #content-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#wrapper #content-wrapper #content {
+  flex: 1 0 auto;
+}
+
+.container,
+.container-fluid {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h3 {
+  color: #3b56a8;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.right {
+	float: right;
+}
+
+.col-md-offset-1 {
+	margin-left: 8%;
+}
+
+.col-md-offset-2 {
+	margin-left: 16%;
+}
+
+.col-md-offset-3 {
+	margin-left: 25%;
+}
+
+.col-md-offset-4 {
+	margin-left: 33%;
+}
+
+.col-md-offset-5 {
+	margin-left: 41%;
+}
+
+.col-md-offset-6 {
+	margin-left: 50%;
+}
+
+.col-md-offset-7 {
+	margin-left: 58%;
+}
+
+.col-md-offset-8 {
+	margin-left: 66%;
+}
+
+.col-md-offset-9 {
+	margin-left: 75%;
+}
+
+.col-md-offset-10 {
+	margin-left: 83%;
+}
+
+.col-md-offset-11 {
+	margin-left: 92%;
+}
+
+/*-----------------------------------------
+                 HEADER
+-----------------------------------------*/
+
+header {
+	position: static;
+	text-align: center;
+	vertical-align: middle;
+	justify-items: center;
+	align-items: center;
+}
+
+.header img {
+	max-width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*-----------------------------------------
+                 FOOTER
+-----------------------------------------*/
+
+footer {
+	background-color: #e0e0e0;
+	text-align: center;
+	vertical-align: middle;
+	justify-items: center;
+	align-items: center;
+	line-height: 90%;
+	margin: 0;
+	padding: 15px;
+}
+
+footer p {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: bold;
+	color: #808080;
+}
+
+/*-----------------------------------------
+                 LINKS
+-----------------------------------------*/
+
+a.place, a.module {
+	color: #4e73df;
+	font-weight: bold;
+}
+
+a.alert {
+  color: red;
+}
+
+
+/*-----------------------------------------
+                 SIDEBAR
+-----------------------------------------*/
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3b56a8;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#sidebarLogo {
+	padding-top: 20px;
+}
+
+.nav-item img {
+	width: 50px;
+	padding-right: 10%;
+}
+
+hr {
+    border-top: 1px solid white;
+    color: #000;
+    overflow: visible;
+    text-align: center;
+    margin-top: 2rem;
+  	margin-bottom: 2rem;
+}
+
+/*-----------------------------------------
+                 BUTTONS
+-----------------------------------------*/
+
+.btn {
+	background-color: #4e73df;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.btn-card {
+	margin: 0 20px;
+}
+
+.btn:hover {
+	background-color: #2a52c9;
+	border-color: #2653d4;
+}
+
+/*-----------------------------------------
+                 SEARCHBAR
+-----------------------------------------*/
+
+.searchBar {
+	background-image: url('../img/searchicon.png');
+	background-size: 20px;
+	background-position: left 4% bottom 55%;
+	background-repeat: no-repeat;
+	padding-left: 4%;
+}
+
+/*-----------------------------------------
+                 TABLE
+-----------------------------------------*/
+
+table {
+	page-break-inside:auto;
+    border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #000;
+	border: 2px solid #dddfeb;
+	font-weight: normal;
+}
+
+tr {
+	page-break-inside:avoid; page-break-after:auto;
+	border-bottom: 1px solid #dddfeb;
+}
+
+th, td {
+    background-color: #fff;
+    border: 1px solid #dddfeb;
+    padding: 0.75rem;
+	vertical-align: top;
+	text-align: center;
+}
+
+thead, th {
+    background-color: #ebedf7;
+	vertical-align: bottom;
+	border: 2px solid #dddfeb;
+}
+
+th:hover {
+	cursor:pointer;
+}
+
+tbody {
+	border: 1px solid #dddfeb;
+}
